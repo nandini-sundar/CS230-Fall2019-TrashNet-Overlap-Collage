@@ -2,23 +2,23 @@
 ## Directory structure
 ```
 ├── TrashNet-Overlap-Collage
-│   ├── Split
+│   ├── images
 │   │   ├── test_set
 │   │   ├── train_set
 │   │   └── val_set
-│   ├── annotations
-│   │   ├── label_map.pbtxt
-│   │   ├── test_labels.csv
-│   │   ├── train_labels.csv
-│   │   ├── val_labels.csv        
-|   ├── classes.txt
-│   └── images
+│   └── annotations
+│       ├── label_map.pbtxt
+│       ├── test_labels.csv
+│       ├── train_labels.csv
+│       └── val_labels.csv        
+
 
 ```
 
 # Description
 
 This dataset was used for Milestone 1 where the collages of images were created with objects overlapping each other.
+Don't use this dataset to train for final project
 
 You can create the TF records using the csv files using this python file in cs230-waste-classification-and-detection/data_processing :
 
